@@ -1,0 +1,63 @@
+.container {
+    padding: 3em;
+    padding-top: 1em;
+    font-family:'Merriweather';
+}
+
+body {
+    background-color: #f5eee4;
+}
+
+#navbar {
+    font-family:'Merriweather';
+    text-align: center;
+    padding: 1em;
+    padding-top: 2em;
+  }
+
+#line{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: black;
+    height: 2px;
+    width: 90%;
+}
+
+.tags {
+    display: flex;
+    gap: 1em;
+}
+
+.tag {
+    
+    padding: 0.5em 0.75em;
+    border-radius: 15%/50%;
+    background-color: #D8D1C9;
+    vertical-align: middle;
+    display: flex;
+    gap: 0.5em;
+}
+
+.tagText {
+    display: inline;
+}
+
+#type > .tagText {
+
+}
+
+#type > .tagIcon {
+    display: inline-block;
+    height: 1.2em;
+    width: 1.2em;
+    background-color: #5BC436;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 1em;
+    }
+  }
